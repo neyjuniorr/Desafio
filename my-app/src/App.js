@@ -1,9 +1,19 @@
-import Pag01 from './components/pag01';
+import Pag01 from './components/Pag01';
+import './global.css';
+
+
 
 
 function App() {
   return (
+    <div>
     <Pag01 />
+    
+    
+    </div>
+    
+    
+    
   );
 }
 
