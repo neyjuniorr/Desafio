@@ -1,19 +1,16 @@
-import Pag01 from './components/Pag01';
-import './global.css';
+import React from 'react';
+import AppRoutes from './routes/index.jsx'
+import './global.css'
+// import { AuthProvider } from './context/auth.jsx';
 
 
 
 
 function App() {
   return (
-    <div>
-    <Pag01 />
-    
-    
-    </div>
-    
-    
-    
+    <AuthProvider>
+      <AppRoutes />
+    </AuthProvider>
   );
 }
 

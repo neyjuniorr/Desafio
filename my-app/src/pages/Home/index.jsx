@@ -1,15 +1,15 @@
 import React from 'react';
-import Frame1 from '../images/Frame (1).svg';
-import Frame2 from '../images/Frame (2).svg';
-import Frame3 from '../images/Frame.svg';
-import Frame4 from '../images/Group 83.2.svg';
-import Frame5 from '../images/Group 85.2.svg';
-import Frame6 from '../images/Group 87.2.svg';
-import Frame7 from '../images/header.svg';
-import Lorem from '../images/Lorem.svg';
+import Frame1 from '../../images/Frame (1).svg';
+import Frame2 from '../../images/Frame (2).svg';
+import Frame3 from '../../images/Frame.svg';
+import Frame4 from '../../images/Group 83.2.svg';
+import Frame5 from '../../images/Group 85.2.svg';
+import Frame6 from '../../images/Group 87.2.svg';
+import Frame7 from '../../images/header.svg';
+import Lorem from '../../images/Lorem.svg';
 
 
-const pag01 = () => {
+const Home = () => {
   return (
     <div className='h-screen bg-slate-200 flex relative'>
 
@@ -27,7 +27,7 @@ const pag01 = () => {
 
 
       <div className=' flex  p-[33px] relative'>
-        <header className=' bg-white rounded-md w-[1242px] h-[159px] p-4 flex items-center'>
+        <header className=' bg-white rounded-md w-[1335px] h-[170px] p-4 flex items-center'>
 
           <div className='flex space-x-4'>
             <div className='flex flex-col items-center text-center'>
@@ -97,7 +97,7 @@ const pag01 = () => {
             </div>
           </div>
           <div className=' mb-9 text-5xl text-blue-400'>
-            ---
+            ----
           </div>
 
           <div className='flex space-x-4 m-auto'>
@@ -110,7 +110,7 @@ const pag01 = () => {
             </div>
           </div>
           <div className=' mb-9 text-5xl text-blue-400'>
-            ---
+            ----
           </div>
 
 
@@ -124,7 +124,7 @@ const pag01 = () => {
             </div>
           </div>
           <div className=' mb-9 text-5xl text-blue-400'>
-            ---
+            ----
           </div>
           <div className='flex space-x-4 m-auto '>
             <div className='flex flex-col items-center text-center'>
@@ -138,14 +138,14 @@ const pag01 = () => {
         </header>
 
       </div>
-      <article className='absolute bottom-91 top-[225px] left-[88px] h-[420px] w-[447px] bg-white rounded-md p-4'>
-        <div className=' h-[408px] w-[345px] rounded-md p-6 m-auto'>
+      <article className='absolute bottom-91 top-[225px] left-[88px] h-[420px] w-[490px] bg-white rounded-md p-4'>
+        <div className=' h-[408px] w-[380px] rounded-md p-6 m-auto'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit suscipit porttitor. Suspendisse ex lorem, rhoncus nec ante eu, venenatis aliquam turpis. Nulla facilisi. Curabitur nec mattis dolor. Nulla finibus bibendum ligula tempus vehicula. Ut at tristique libero, nec efficitur dui. Aliquam erat volutpat. Fusce quam sem, tempus nec justo eget, luctus scelerisque velit. Nam sollicitudin purus urna, vitae ornare neque tincidunt vel. Proin ac lacinia erat, et commodo felis. Phasellus tempor tellus eu vulputate tempus.
         </div>
         <img src={Lorem} alt="" className='absolute bottom-1' />
       </article>
       <form>
-        <div className='absolute bottom-91 top-[225px] rounded-t-2xl left-[600px] right-[34px] w-[735px] h-[420px] bg-white '>
+        <div className='absolute bottom-91 top-[225px] rounded-t-2xl left-[690px] right-[34px] w-[735px] h-[420px] bg-white '>
           <div className='bg-blue-400 text-white text-2xl rounded-t-2xl p-4 h-20px font-custom'>
             Funcionário(s)
           </div>
@@ -181,12 +181,12 @@ const pag01 = () => {
                 <div className='absolute'>
                   CPF
                 </div>
-                <div>
-                  Ativ 
+                {/* <div>
+                  Ativos 
                 </div>
                 <div>
                   Cargo
-                </div>
+                </div> */}
                 </div>
 
                 </div>
@@ -205,4 +205,4 @@ const pag01 = () => {
   )
 }
 
-export default pag01
+export default Home
