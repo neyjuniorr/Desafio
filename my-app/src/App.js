@@ -1,7 +1,7 @@
 import React from 'react';
 import AppRoutes from './routes/index.jsx'
 import './global.css'
-// import { AuthProvider } from './context/auth.jsx';
+import { AuthProvider } from './context/auth.jsx';
 
 
 
